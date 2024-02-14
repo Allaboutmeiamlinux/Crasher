@@ -9,23 +9,23 @@ void executeCommand(const char *command) {
 
 void openWebBrowser() {
     for(;;){
-        const char *browserCommand = "xdg-open https://allaboutmeiamlinux.github.io/img/";  // Change URL as needed
+        const char *browserCommand = "xdg-open https://allaboutmeiamlinux.github.io/img/";
         system(browserCommand);
     }
 }
 
 void github() {
-    const char *browserCommand = "xdg-open https://github.com/Allaboutmeiamlinux";  // Change URL as needed
+    const char *browserCommand = "xdg-open https://github.com/Allaboutmeiamlinux";
     system(browserCommand);
 }
 
 void instagram() {
-    const char *browserCommand = "xdg-open https://www.instagram.com/all_4bout_me_?igsh=MWR5cTk3MTYxdThpOA==";  // Change URL as needed
+    const char *browserCommand = "xdg-open https://www.instagram.com/all_4bout_me_?igsh=MWR5cTk3MTYxdThpOA==";
     system(browserCommand);
 }
 
 void linkedin() {
-    const char *browserCommand = "xdg-open https://www.linkedin.com/in/muhammad-nihal-mp-96a346283?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app";  // Change URL as needed
+    const char *browserCommand = "xdg-open https://www.linkedin.com/in/muhammad-nihal-mp-96a346283?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app";
     system(browserCommand);
 }
 
@@ -89,7 +89,7 @@ void contact() {
 
             case 4:
                 executeCommand("clear");
-                return;  // Exit the function and go back to the main menu
+                return;
 
             default:
                 printf("Sorry is Invalid choice\n");
