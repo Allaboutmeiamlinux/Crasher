@@ -49,7 +49,7 @@ void error(){
 
         case 2:
             executeCommand("clear");
-            sleep(0.5);
+            sleep(1);
             return;
 
         default:
