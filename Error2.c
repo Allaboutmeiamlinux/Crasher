@@ -25,7 +25,7 @@ void instagram() {
 }
 
 void linkedin() {
-    const char *browserCommand = "xdg-open https://www.linkedin.com/in/muhammad-nihal-mp-96a346283?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app";
+    const char *browserCommand = "xdg-open https://www.linkedin.com";
     system(browserCommand);
 }
 
